@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+   background-color: hsla(0, 88%, 22%, 0.918); 
+   font-family: poppins,sans-serif; 
+   color: hsl(0, 0%, 100%); 
+   margin: 0;
+}
+
+.container {
+   text-align: center; 
+   padding: 20px;
+   font-size: 1.5rem;
+}
+
+.image-container {
+   position: relative; 
+   display: inline-block; 
+}
+
+.styled-image {
+   width: 80%; 
+   border: 50px solid #110c0c; 
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4); 
+}
+
+.image-top-text {
+   position: absolute; 
+   top: 5px;
+   left: 0;
+   right: 0; 
+   color: hsl(0, 0%, 100%);
+   text-align: center;
+}
+
+.image-bottom-text {
+   position: relative; 
+   bottom: 0px;
+   left: 0;
+   right: 0; 
+   color: white;
+   text-align: auto;
+}
+
+.image figure{
+display: black;
+margin-block-start:1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 4opx;
+unicode-bidi:isolate ;
+
+}
+.timeline {
+   list-style: none; 
+   padding: 0px;
+   text-align: center; 
+   margin: 20px;
+}
+
+.timeline li { 
+   padding: 20px;
+   text-align: center;
+}
+
+.ul {
+   max-width: 650px;
+   margin: 0 auto 50px auto;
+   text-align: left;
+   line-height: 1.6;
+}
+
+.quote {
+   text-align: center ; 
+   font-style: italic;
+}
+
+.footer {
+   text-align: center ; 
+   font-size: .9em;
+}
+
+ul {
+   max-width: 650px;
+   margin: 0 auto 50px auto;
+   text-align: left;
+   line-height: 1.6;
+}
